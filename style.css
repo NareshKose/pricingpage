@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:gilroy;
+}
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+header {
+    background-color: #166710;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.intro {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.toggle {
+    margin-bottom: 20px;
+}
+
+.toggle button {
+    margin: 0 5px;
+    padding: 10px;
+    background-color: #4ae26d;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.toggle button.active {
+    background-color: #006609;
+}
+
+.pricing {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.plan {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    width: 30%;
+}
+
+.plan h3 {
+    margin-top: 0;
+}
+
+.price {
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.plan ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+.plan ul li {
+    margin-bottom: 10px;
+}
+
+.plan button {
+    background-color: #8ee24a;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.testimonials {
+    background-color: #f8f9fa;
+    padding: 20px;
+}
+
+.testimonial {
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #314110;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+footer nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+footer nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+@media (max-width: 600px) {
+    .pricing {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .plan {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+}

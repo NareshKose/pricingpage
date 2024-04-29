@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Fictional Product</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="intro">
+        <h2>Choose Your Plan</h2>
+        <p>Discover the plan that best suits your needs.</p>
+        <div class="toggle">
+            <button id="monthly" class="active" onclick="togglePricing('monthly')">Monthly</button>
+            <button id="annual" onclick="togglePricing('annual')">Annual</button>
+        </div>
+    </section>
+
+    <section class="pricing">
+        <div class="plan">
+            <h3>Basic</h3>
+            <p class="price monthly-price">$10/month</p>
+            <p class="price annual-price">$100/year</p>
+            <ul>
+                <li>Feature A</li>
+                <li>Feature B</li>
+                <li>Feature C</li>
+            </ul>
+            <button>Choose Basic</button>
+        </div>
+
+        <div class="plan">
+            <h3>Pro</h3>
+            <p class="price monthly-price">$20/month</p>
+            <p class="price annual-price">$200/year</p>
+            <ul>
+                <li>Feature A</li>
+                <li>Feature B</li>
+                <li>Feature C</li>
+                <li>Feature D</li>
+            </ul>
+            <button>Choose Pro</button>
+        </div>
+
+        <div class="plan">
+            <h3>Premium</h3>
+            <p class="price monthly-price">$30/month</p>
+            <p class="price annual-price">$300/year</p>
+            <ul>
+                <li>Feature A</li>
+                <li>Feature B</li>
+                <li>Feature C</li>
+                <li>Feature D</li>
+                <li>Feature E</li>
+            </ul>
+            <button>Choose Premium</button>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <h2>What Our Customers Say</h2>
+        <div class="testimonial">
+            <p>"This product has been a game changer for me!" - Customer A</p>
+        </div>
+        <div class="testimonial">
+            <p>"Amazing service and great value!" - Customer B</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Fictional Product</p>
+        <nav>
+            <ul>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms of Service</li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </nav>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
